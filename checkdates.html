@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Rejoice — Tour Dates</title>
+</head>
+<body class="tour-page">
+    <header>
+        <div class="brand">
+            <div class="logo">R</div>
+            <div>
+                <div class="brand-title">Rejoice</div>
+                <div class="brand-subtitle">Celebrate better moments</div>
+            </div>
+        </div>
+        <nav>
+            <button type="button" onclick="window.location.href='index.html'">Home</button>
+            <button type="button" onclick="window.location.href='Contact.html'">Contact</button>
+        </nav>
+    </header>
+
+    <main class="hero tour-hero">
+        <section class="hero-card">
+            <h1>Rejoice Live on Tour</h1>
+            <p class="lead">Find your nearest city, browse upcoming shows, and keep your calendar ready for the next celebration.</p>
+            <div class="tour-calendar-card">
+                <div class="month-nav">
+                    <div>
+                        <strong id="month-label">June 2026</strong>
+                        <span id="month-subtitle">Summer tour schedule</span>
+                    </div>
+                    <div class="cta">
+                        <button class="btn btn-ghost" id="calendar-prev">Prev</button>
+                        <button class="btn btn-ghost" id="calendar-next">Next</button>
+                    </div>
+                </div>
+                <div class="calendar-grid" id="calendar-grid">
+                    <div class="day-label">Sun</div>
+                    <div class="day-label">Mon</div>
+                    <div class="day-label">Tue</div>
+                    <div class="day-label">Wed</div>
+                    <div class="day-label">Thu</div>
+                    <div class="day-label">Fri</div>
+                    <div class="day-label">Sat</div>
+
+                    <div class="calendar-day empty"></div>
+                    <div class="calendar-day empty"></div>
+                    <div class="calendar-day empty"></div>
+                    <div class="calendar-day empty"></div>
+                    <div class="calendar-day empty"></div>
+                    <div class="calendar-day active">
+                        1
+                        <small>London</small>
+                    </div>
+                    <div class="calendar-day">
+                        2
+                        <small>Paris</small>
+                    </div>
+
+                    <div class="calendar-day">
+                        3
+                        <small>Berlin</small>
+                    </div>
+                    <div class="calendar-day">
+                        4
+                        <small>Amsterdam</small>
+                    </div>
+                    <div class="calendar-day active">
+                        5
+                        <small>Barcelona</small>
+                    </div>
+                    <div class="calendar-day">
+                        6
+                        <small>Lisbon</small>
+                    </div>
+                    <div class="calendar-day active">
+                        7
+                        <small>Madrid</small>
+                    </div>
+                    <div class="calendar-day">
+                        8
+                        <small>Rome</small>
+                    </div>
+                    <div class="calendar-day">
+                        9
+                        <small>Prague</small>
+                    </div>
+
+                    <div class="calendar-day">
+                        10
+                        <small>Vienna</small>
+                    </div>
+                    <div class="calendar-day active">
+                        11
+                        <small>Budapest</small>
+                    </div>
+                    <div class="calendar-day active">
+                        12
+                        <small>New York</small>
+                    </div>
+                    <div class="calendar-day">
+                        13
+                        <small>Chicago</small>
+                    </div>
+                    <div class="calendar-day active">
+                        14
+                        <small>Toronto</small>
+                    </div>
+                    <div class="calendar-day">
+                        15
+                        <small>Boston</small>
+                    </div>
+                    <div class="calendar-day">
+                        16
+                        <small>Philly</small>
+                    </div>
+
+                    <div class="calendar-day active">
+                        17
+                        <small>Atlanta</small>
+                    </div>
+                    <div class="calendar-day">
+                        18
+                        <small>Miami</small>
+                    </div>
+                    <div class="calendar-day">
+                        19
+                        <small>Austin</small>
+                    </div>
+                    <div class="calendar-day active">
+                        20
+                        <small>Dallas</small>
+                    </div>
+                    <div class="calendar-day">
+                        21
+                        <small>Houston</small>
+                    </div>
+                    <div class="calendar-day">
+                        22
+                        <small>Nashville</small>
+                    </div>
+                    <div class="calendar-day active">
+                        23
+                        <small>Seattle</small>
+                    </div>
+
+                    <div class="calendar-day">
+                        24
+                        <small>San Fran</small>
+                    </div>
+                    <div class="calendar-day active">
+                        25
+                        <small>Los Angeles</small>
+                    </div>
+                    <div class="calendar-day">
+                        26
+                        <small>San Diego</small>
+                    </div>
+                    <div class="calendar-day">
+                        27
+                        <small>Portland</small>
+                    </div>
+                    <div class="calendar-day active">
+                        28
+                        <small>Denver</small>
+                    </div>
+                    <div class="calendar-day">
+                        29
+                        <small>Salt Lake</small>
+                    </div>
+                    <div class="calendar-day">
+                        30
+                        <small>Phoenix</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="show-list" id="show-list">
+                <div class="show-item">
+                    <div class="show-meta">
+                        <strong>June 12 — New York City</strong>
+                        <span>The Glass Hall • 8:00 PM</span>
+                    </div>
+                    <button onclick="window.location.href='https://www.ticketmaster.com'" class="ticket-btn">Tickets</button>
+                </div>
+                <div class="show-item">
+                    <div class="show-meta">
+                        <strong>June 14 — Toronto</strong>
+                        <span>Neon Theater • 7:30 PM</span>
+                    </div>
+                    <button onclick="window.location.href='https://www.ticketmaster.com'" class="ticket-btn">Tickets</button>
+                </div>
+                <div class="show-item">
+                    <div class="show-meta">
+                        <strong>June 25 — Los Angeles</strong>
+                        <span>Sunset Arena • 9:00 PM</span>
+                    </div>
+                    <button onclick="window.location.href='https://www.ticketmaster.com'" class="ticket-btn">Tickets</button>
+                </div>
+            </div>
+        </section>
+
+        <aside class="tour-sidebar">
+            <div class="hero-card">
+                <h3>Next show</h3>
+                <p>Saturday, June 12 — The Glass Hall, New York City.
+                    Join Rejoice for a night of uplifting music and unforgettable moments.</p>
+                <button onclick="window.location.href='https://www.ticketmaster.com'" class="btn btn-primary">Buy Tickets</button>
+            </div>
+            
+        </aside>
+    </main>
+
+    <footer>
+        <div>© Rejoice — for the lord</div>
+        <div class="footer-links">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+        </div>
+    </footer>
+    <script src="checkdates.js"></script>
+</body>
+</html>
